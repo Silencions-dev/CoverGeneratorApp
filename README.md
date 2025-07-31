@@ -40,7 +40,7 @@ Zainstaluj Qt oraz Emscripten SDK.
 
 Sklonuj repozytorium:
    ```bash
-   git clone
+   git clone https://github.com/Silencions-dev/CoverGeneratorApp.git
    cd CoverGeneratorApp-main
    ```
 lub pobierz jako archiwum i rozpakuj:
