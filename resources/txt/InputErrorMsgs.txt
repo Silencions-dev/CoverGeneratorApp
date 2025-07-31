@@ -1,0 +1,5 @@
+niepoprawny format danych (proszę podać liczby).
+
+zbyt duża wartość.
+
+niepoprawna wartość (tylko liczby dodatnie).

@@ -1,0 +1,9 @@
+Proszę podać skrajne wymiary zewnętrzne urządzenia (wymagane). Zatwierdzić klawiszem 'Enter'.
+
+Jeżeli w pobliżu urządzenia znajdują się przeszkody, proszę zaznaczyć i podać odpowiedni wymiar (opcjonalne). W przeciwnym wypadku proszę przejść dalej.
+
+Jeżeli istnieją preferencje odnośnie odstępów między urządzeniem a wnętrzem obudowy (np. z instrukcji pompy ciepła), proszę zaznaczyć i wpisać odpowiedni wymiar (opcjonalne). W przeciwnym wypadku zostaną przyjęte domyślne wartości.
+
+Dane poprawne. Proszę przejść dalej.
+
+Dane niepoprawne.

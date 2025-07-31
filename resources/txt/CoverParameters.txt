@@ -1,0 +1,28 @@
+# PLIK Z PARAMETRAMI PROGRAMU DO GENEROWANIA OBUDÓW - M. SĘK 08.11.24
+# 1. Każda linia musi się kończyć średnikiem.
+# 2. Ilość znaków nowej linii nie ma znaczenia.
+# Komentarze zaczynają się symbolem '#' (jak widać).
+
+# Zaokrąglone wartości dostępnych wymiarów.
+lengths : 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000
+widths : 550 600 650 700 750 800 850 900
+heights : 386.7 385.7 438.5
+
+# Grubości paneli potrzebne do obliczenia wyiarów zewnętrznych.
+out_length_param : 243.5 
+out_width_param : 497.8
+out_height_param : 49.9
+
+# Odległości do wyliczenia prezycyjnych wymiarów wewnętrznych.
+acc_length_param : 60.4
+acc_width_param : -50
+acc_height_param : -48.8
+
+# Minimalne zalecane odstępy wewnątrz obudowy w [mm]
+front_space : 20
+side_space : 50
+back_space : 20
+top_space : 50
+
+# Minimalna odległość od elewacji, przy której obudowa zostaje standardowa (bez ażurków)
+wall_space : 400

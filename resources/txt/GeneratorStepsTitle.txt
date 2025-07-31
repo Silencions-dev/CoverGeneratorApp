@@ -1,0 +1,3 @@
+Wymiary zewnętrzne urządzenia
+Odległości do najbliższych przeszkód (opcjonalne)
+Minimalne odstępy wewnątrz obudowy (opcjonalne)

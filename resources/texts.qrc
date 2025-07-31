@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/errors">
+        <file>txt/GenErrorMsgs.txt</file>
+        <file>txt/InputErrorMsgs.txt</file>
+    </qresource>
+    <qresource prefix="/descriptions">
+        <file>txt/GeneratorStepDesc_1.txt</file>
+        <file>txt/GeneratorStepDesc_2.txt</file>
+        <file>txt/GeneratorStepDesc_3.txt</file>
+        <file>txt/ResultStepDesc_1.txt</file>
+        <file>txt/ResultStepDesc_2.txt</file>
+        <file>txt/ResultStepDesc_3.txt</file>
+        <file>txt/ResultUserInfoDescriptions.txt</file>
+        <file>txt/Messages.txt</file>
+        <file>txt/GeneratorStepsTitle.txt</file>
+    </qresource>
+    <qresource prefix="/mail">
+        <file>txt/MailSpecialCover.txt</file>
+        <file>txt/MailStdCover.txt</file>
+    </qresource>
+    <qresource prefix="/info">
+        <file>txt/ContactFormInfo.txt</file>
+        <file>txt/NotGeneratedInfo.txt</file>
+        <file>txt/PortfolioInfo.txt</file>
+    </qresource>
+</RCC>

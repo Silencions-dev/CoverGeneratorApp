@@ -1,0 +1,4 @@
+QLineEdit {
+    border: 1px solid #00FF00;
+    border-radius: 5px;
+}

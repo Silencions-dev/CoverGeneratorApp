@@ -1,0 +1,67 @@
+<RCC>
+    <qresource prefix="/Arrows">
+        <file>images/Arrows/arrow_right.png</file>
+        <file>images/Arrows/arrow_left.png</file>
+    </qresource>
+    <qresource prefix="/Logo">
+        <file>images/silencions_logo.png</file>
+    </qresource>
+    <qresource prefix="/ExamplesImgs">
+        <file>images/Step1/Ex1_1.jpg</file>
+        <file>images/Step1/Ex2_1.jpg</file>
+        <file>images/Step1/Ex3_1.jpg</file>
+        <file>images/Step1/Ex4_1.jpg</file>
+        <file>images/Step1/Ex5_1.jpg</file>
+        <file>images/Step1/Ex6_1.jpg</file>
+        <file>images/Step2/Ex1_2.jpg</file>
+        <file>images/Step2/Ex2_2.jpg</file>
+        <file>images/Step2/Ex3_2.jpg</file>
+        <file>images/Step2/Ex4_2.jpg</file>
+        <file>images/Step2/Ex5_2.jpg</file>
+        <file>images/Step3/Ex1_3.jpg</file>
+        <file>images/Step3/Ex2_3.jpg</file>
+        <file>images/Step3/Ex3_3.jpg</file>
+        <file>images/Step3/Ex4_3.jpg</file>
+    </qresource>
+    <qresource prefix="/CoversImgs">
+        <file>images/ObudowySpecjalne/PC.Z4_Render_1.png</file>
+        <file>images/ObudowySpecjalne/PC.Z4_Render_2.png</file>
+        <file>images/ObudowySpecjalne/PC.Z6_Render_1.png</file>
+        <file>images/ObudowySpecjalne/PC.Z10_Render_1.png</file>
+        <file>images/ObudowySpecjalne/PC.Z10_Render_2.png</file>
+        <file>images/ObudowySpecjalne/PC.Z11.B_Render_5.png</file>
+        <file>images/ObudowySpecjalne/PC.Z13_Render_1.png</file>
+        <file>images/ObudowySpecjalne/PC.Z13_Render_2.png</file>
+        <file>images/ObudowySpecjalne/PC.Z13_Render_3.png</file>
+        <file>images/ObudowySpecjalne/PC.Z14_Render_1.png</file>
+        <file>images/ObudowySpecjalne/PC.Z16_Render_1.png</file>
+        <file>images/ObudowySpecjalne/PC.Z16_Render_2.png</file>
+        <file>images/ObudowySpecjalne/PC.Z17_Render_8.png</file>
+        <file>images/ObudowySpecjalne/PC.Z17_Render_12.png</file>
+        <file>images/ObudowySpecjalne/PC.Z17_Render_15.png</file>
+        <file>images/ObudowySpecjalne/PC.Z18_Render_1.png</file>
+        <file>images/ObudowySpecjalne/PC.Z18_Render_8.png</file>
+        <file>images/ObudowySpecjalne/PC.Z18_Render_11.png</file>
+        <file>images/ObudowySpecjalne/PC.Z19_Render12.png</file>
+        <file>images/ObudowySpecjalne/PC.Z19_Render16.png</file>
+        <file>images/ObudowySpecjalne/PC.Z19_Render18.png</file>
+    </qresource>
+    <qresource prefix="/ResultsImgs">
+        <file>images/ObudowyWyniki/L/0_L.png</file>
+        <file>images/ObudowyWyniki/L/Obudowa_Rys_L_1.png</file>
+        <file>images/ObudowyWyniki/L/Obudowa_Rys_L_2.png</file>
+        <file>images/ObudowyWyniki/L/Obudowa_Rys_Wew.png</file>
+        <file>images/ObudowyWyniki/M/0_M.png</file>
+        <file>images/ObudowyWyniki/M/Obudowa_Rys_M_1.png</file>
+        <file>images/ObudowyWyniki/M/Obudowa_Rys_M_2.png</file>
+        <file>images/ObudowyWyniki/M/Obudowa_Rys_Wew.png</file>
+        <file>images/ObudowyWyniki/S/0_S.png</file>
+        <file>images/ObudowyWyniki/S/Obudowa_Rys_S_1.png</file>
+        <file>images/ObudowyWyniki/S/Obudowa_Rys_S_2.png</file>
+        <file>images/ObudowyWyniki/S/Obudowa_Rys_Wew.png</file>
+        <file>images/ObudowyWyniki/XL/0_XL.png</file>
+        <file>images/ObudowyWyniki/XL/Obudowa_Rys_Wew.png</file>
+        <file>images/ObudowyWyniki/XL/Obudowa_Rys_XL_1.png</file>
+        <file>images/ObudowyWyniki/XL/Obudowa_Rys_XL_2.png</file>
+    </qresource>
+</RCC>

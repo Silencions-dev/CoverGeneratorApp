@@ -1,0 +1,3 @@
+    - Szerokość
+    - Głębokość
+    - Wysokość

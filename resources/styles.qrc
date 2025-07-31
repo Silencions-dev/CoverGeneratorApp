@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/button_stylesheet">
+        <file>styles/ButtonLocked.qss</file>
+        <file>styles/ButtonUnlocked.qss</file>
+    </qresource>
+    <qresource prefix="/lineedit_stylesheet">
+        <file>styles/LineEditCorrect.qss</file>
+        <file>styles/LineEditNeutral.qss</file>
+        <file>styles/LineEditDisabled.qss</file>
+        <file>styles/LineEditWrong.qss</file>
+    </qresource>
+    <qresource prefix="/textedit_stylesheet">
+        <file>styles/TextEditStyle.qss</file>
+    </qresource>
+</RCC>

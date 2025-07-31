@@ -1,0 +1,5 @@
+{
+    "mail_url" : "http://my-server/send",
+    "mail_receiver" : "example@domain.com",
+    "limit" : 3
+}

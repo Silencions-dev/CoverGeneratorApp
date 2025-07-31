@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/cover_params">
+        <file>txt/CoverParameters.txt</file>
+    </qresource>
+    <qresource prefix="/network_params">
+        <file>network/DataSrvConctConfig.json</file>
+        <file>network/MailSrvConctConfig.json</file>
+    </qresource>
+</RCC>

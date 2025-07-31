@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/custom_fonts">
+        <file>fonts/Barlow-Regular.ttf</file>
+    </qresource>
+</RCC>

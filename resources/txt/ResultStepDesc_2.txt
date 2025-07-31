@@ -1,0 +1,3 @@
+    - Po lewej strony pompy
+    - Po prawej strony pompy
+    - Za pompą

@@ -1,0 +1,15 @@
+Kolizja obudowy z obiektem znajdującym się po lewej stronie urządzenia.
+
+Kolizja obudowy z obiektem znajdującym się po prawej stronie urządzenia.
+
+Kolizja obudowy z obiektem znajdującym się z tyłu urządzenia.
+
+Wymagana szerokość jest za duża dla standardowej obudowy.
+
+Wymagana głębokość jest za duża dla standardowej obudowy.
+
+Wymagana wysokość jest za duża dla standardowej obudowy.
+
+Nie znaleziono części dla wymaganej długości.
+
+Nie znaleziono części dla wymaganej szerokości.

@@ -1,0 +1,6 @@
+{
+    "token_proxy" : "http://my-server/token",
+    "api_proxy" : "http://my-server/api",
+    "init_session" : "http://my-server/init",
+    "update_session" : "http://my-server/update"
+}

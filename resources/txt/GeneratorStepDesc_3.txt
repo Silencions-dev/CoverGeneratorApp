@@ -1,0 +1,4 @@
+Od boków urządzenia (I)
+Od frontu urządzenia (J)
+Od tyłu urządzenia (K)
+Od góry urządzenia (L)

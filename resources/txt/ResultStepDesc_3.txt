@@ -1,0 +1,4 @@
+    - Od boków pompy
+    - Od frontu pompy
+    - Od tyłu pompy
+    - Od góry pompy

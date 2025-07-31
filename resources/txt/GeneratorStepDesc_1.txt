@@ -1,0 +1,3 @@
+Szerokość (X)
+Głębokość (Y)
+Wysokość (Z)
