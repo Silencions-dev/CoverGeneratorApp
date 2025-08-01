@@ -118,7 +118,10 @@ W tym wypadku serwer nasłuchuje na porcie ```8080``` oraz pozwala na połączen
 sieci. Po wejściu w link przeglądarka pokaże zawartość folderu, z którego został uruchomiony serwer (pliki
 aplikacji). Aby uruchomić aplikację należy wybrać z listy plik ```HP_CoverDesigner.html```.
 
-   
+### Licencja
+
+Aplikacja objęta jest licencją GPLv2.0, co czyni ją projektem open source. Dokładne informacje oraz warunki wykorzystania kodu źródłowego można znaleźć
+w pliku LICENSE dostępnym w repozytorium.
    
 
 
