@@ -17,7 +17,13 @@ Aplikacja następnie analizuje podane dane i wyświetla wynik, którym może by�
 
 Ostatecznie oferowana jest możliwość kontatku. Użytkownik może wysłać wiadomość email
 z wynikami generatora bezpośrednio z poziomu aplikacji albo skopiować automatycznie
-stworzoną treść wiadomości i wysłać ją ręcznie.
+stworzoną treść wiadomości i wysłać ją ręcznie. 
+
+Przykłady aplikacji w trakcie działania:
+<p float="left">
+  <img src="/ex/coverapp_ex1.png" width="300" />
+  <img src="/ex/coverapp_ex2.png" width="300" /> 
+</p>
 
 ## Implementacja
 
