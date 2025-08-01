@@ -21,9 +21,9 @@ stworzoną treść wiadomości i wysłać ją ręcznie.
 
 Przykłady aplikacji w trakcie działania:
 <p align="middle">
-  <img src="/ex/coverapp_ex1.png" width="300" />
-  <img src="/ex/coverapp_ex2.png" width="300" />
-  <img src="/ex/coverapp_ex3.png" width="300" /> 
+  <img src="/ex/coverapp_ex1.png" width="400" />
+  <img src="/ex/coverapp_ex2.png" width="400" />
+  <img src="/ex/coverapp_ex3.png" width="400" /> 
 </p>
 
 ## Implementacja
