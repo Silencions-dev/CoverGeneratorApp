@@ -20,9 +20,10 @@ z wynikami generatora bezpośrednio z poziomu aplikacji albo skopiować automaty
 stworzoną treść wiadomości i wysłać ją ręcznie. 
 
 Przykłady aplikacji w trakcie działania:
-<p float="left">
+<p align="middle">
   <img src="/ex/coverapp_ex1.png" width="300" />
-  <img src="/ex/coverapp_ex2.png" width="300" /> 
+  <img src="/ex/coverapp_ex2.png" width="300" />
+  <img src="/ex/coverapp_ex3.png" width="300" /> 
 </p>
 
 ## Implementacja
