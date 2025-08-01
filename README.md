@@ -32,11 +32,19 @@ Przed rozpoczęciem instalacji należy pobrać następujące elementy:
 
 - Qt software - dostępne do pobrania pod: https://www.qt.io/download-dev
 - Emscripten - poradnik instalacji dostępny pod: https://emscripten.org/docs/getting_started/downloads.html
+- make - narzędzie do generowania plików wykonywalnych na podstawie zasad zdefiniowanych w pliku ```Makefile```
 
 Przy instalacji Qt oraz Emscripten należy pobrać pasujące wersje. Więcej informacji bezpośrednio w 
 poradniku integracji Qt z WebAssembly dostępnych pod linkiem: https://doc.qt.io/qt-6/wasm.html.
 
-Zainstaluj Qt oraz Emscripten SDK.
+Narzędzie ```make``` można pobrać dla systemu Linux Debian/Ubuntu bezpośrednio z terminala:
+   ```bash
+   sudo apt-get update
+   sudo apt install build-essential
+   ```
+lub dla systemu Windows ze strony: https://gnuwin32.sourceforge.net/packages/make.htm.
+
+### Pobranie repozytorium
 
 Sklonuj repozytorium:
    ```bash
@@ -49,29 +57,53 @@ lub pobierz jako archiwum i rozpakuj:
   cd CoverGeneratorApp-main
   ```
 
-Kompilacja:
+### Kompilacja ręczna
+
+Zaktualizuj ścieżki i zmienne środowiskowe Emscripten w aktywnej sesji terminala:
    ```bash
    source /path/to/emsdk/emsdk_env.sh
-   /path/to/Qt/x.x.x/6.9.0/wasm_singlethread/bin/qt-cmake -B build -S .
-   cmake --build build
    ```
-Można też wykorzystać środowisko Qt Creator do kompilacji. Gotowe pliki konfiguracyjne zamieszczone są
-w repozytorium. Uruchomienie IDE:
+Utwórz folder na wyniki kompilacji:
+   ```bash
+   mkdir build
+   cd build
+   ```
+Przygotuj plik Makefile na podstawie pliku projektu (```HP_CoverDesigner.pro```):
+   ```bash
+   /path/to/Qt/x.x.x/wasm_singlethread/bin/qmake ../HP_CoverDesigner.pro
+   ```
+Fragment ```x.x.x``` zastąp swoją wersją Qt, np. ```Qt/6.9.0```.
+
+Rozpocznij kompilację z wykorzystaniem wszystkich dostępnych rdzeni CPU (aby przyspieszyć pracę):
+   ```bash
+   make -j$(nproc)
+   ```
+### Kompilacja w Qt Creator
+
+Do kompilacji można też wykorzystać graficzne środowisko - Qt Creator.
+
+Uruchomienie IDE:
 ```bash
-./path/to/Qt/Tools/QtCreator/bin/qtcreator
+/path/to/Qt/Tools/QtCreator/bin/qtcreator
 ```
 Następnie otworzyć nowy projekt oraz wybrać plik ```HP_CoverDesigner.pro```. Potem z listy rozwijanej pod ```Edit```
 przejść do ```Preferences``` i wybrać opcję ```SDKs```. Wcisnąć zakładkę ```WebAssembly``` i ustawić ścieżkę do
 kompilatorów Emscripten przyciskiem ```Browse...```. Ustawienie ścieżek do przechowywania wyników kompilacji 
-można ustawić w zakładce ```Projects``` w lewej części okna. 
+można ustawić w zakładce ```Projects``` w lewej części okna. Dalej wybrać odpowiedni zestaw narzędzi z ```Kit Selector```
+w lewym dolnym rogu a następnie przycisk ```Build``` i ```Run```. Więcej o konfiguracji Qt Creator pod WebAssembly
+znajduje się w poradniku: https://doc.qt.io/qtcreator/creator-setup-webassembly.html.
+
+### Uruchomienie
 
 Uruchomienie aplikacji w przeglądarce za pomocą Emscripten (lub automatycznie przez ```Run``` w Qt Creator):
    ```bash
-   /path/to/emscripten/emrun --browser=my_broswer HP_CoverDesigner.html
+   /path/to/emscripten/emrun --browser=<your_broswer> HP_CoverDesigner.html
    ```
-Alternatywnie można wystartować Python'owy serwer http w folderze z przekompilowaną aplikacją w formie WebAssembly:
+Argument ```--browser``` przyjmuje dosłownie nazwę używanej przeglądarki, np. ```--browser=firefox```.
+
+Alternatywnie można wystartować Python'owy serwer http w folderze, który zawiera pliki wykonywalne aplikacji (w formie WebAssembly):
    ```bash
-   cd /path/to/webassembly-build
+   cd /path/to/build
    python -m http.server 
    ```
 Serwer domyślnie nasłuchuje na porcie ```8000```, zatem w przeglądarce należy wpisać link:
